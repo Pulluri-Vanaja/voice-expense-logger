@@ -1,0 +1,32 @@
+
+# Secret environment variables
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Testing cache
+.pytest_cache/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Local database files
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Generated test audio
+*.mp3
+*.wav
+*.m4a
+
+# Temporary files and logs
+*.log
